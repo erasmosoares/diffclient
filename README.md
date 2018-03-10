@@ -3,7 +3,7 @@
 This is a simple windows application created for testing the [Diff Service](https://github.com/erasmosoares/SimpleService). Please check
 the readme for more information.
 
-Diff service is a tool that accepts JSON base data to compare differences between two JSON files. Into the diff client there is no possibility
+Diff service is an interface that accepts JSON base data to compare differences between two JSON files. Into the diff client there is no possibility
 for posting new JSON files, but you can use [Postman](https://www.getpostman.com/) in order to create new files. Running the Diff Service
 migrations you will probably note a seed migration that will populate some files for testing.
 
