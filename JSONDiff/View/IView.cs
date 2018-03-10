@@ -11,8 +11,7 @@ namespace JSONDiff.View
 {
     public interface IView
     {
-        void SetViewModel(JSONDiffToolViewModel viewModel);
-
+      
         int FileID { get; set; }
         string LeftJSON { get; set; }
         string RightJSON { get; set; }

@@ -74,8 +74,6 @@ namespace JSONDiff.View
         }
         #endregion
 
-        public string NewJSON { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
         public JSONDiffTool()
         {
             InitializeComponent();
@@ -83,11 +81,6 @@ namespace JSONDiff.View
             _viewModel = new JSONDiffToolViewModel(this);
 
             SetHandles();
-        }
-
-        public void SetViewModel(JSONDiffToolViewModel viewModel)
-        {
-            throw new NotImplementedException();
         }
 
         private void InitializeUI()
@@ -184,5 +177,8 @@ namespace JSONDiff.View
         {
             rtbResult.Text = str;
         }
+
+        public string NewJSON { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
     }
 }

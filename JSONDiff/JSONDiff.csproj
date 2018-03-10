@@ -56,20 +56,11 @@
     <Compile Include="View\JSONDiffTool.Designer.cs">
       <DependentUpon>JSONDiffTool.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\JSONFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="View\JSONDiffTool.resx">
       <DependentUpon>JSONDiffTool.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONDiff", "JSONDiff\JSONDiff.csproj", "{CD563EB3-5F4D-43C2-AA70-3ED793A56B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONDiffUnitTest", "JSONDiffUnitTest\JSONDiffUnitTest.csproj", "{DF4C38CE-EA04-4959-8337-D2BBD0696D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CD563EB3-5F4D-43C2-AA70-3ED793A56B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD563EB3-5F4D-43C2-AA70-3ED793A56B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD563EB3-5F4D-43C2-AA70-3ED793A56B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4C38CE-EA04-4959-8337-D2BBD0696D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4C38CE-EA04-4959-8337-D2BBD0696D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4C38CE-EA04-4959-8337-D2BBD0696D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4C38CE-EA04-4959-8337-D2BBD0696D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
